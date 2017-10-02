@@ -1,5 +1,17 @@
 # README
 
+myrecepies 
+ - minitest
+ -- integration testing
+ -- unit testing
+
+ - layout
+ -- integration test checking for the presence of the route
+ -- use generator: rails generate integraion_test pages
+ -- TDD
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
