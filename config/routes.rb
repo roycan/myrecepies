@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  get 'static_pages/help'
+
+  get 'static_pages/about'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   root "pages#home"
   get "pages/home", to: "pages#home" 
 
-  about "pages#about"
-  get "pages/about" , to: "pages#about"
 end
